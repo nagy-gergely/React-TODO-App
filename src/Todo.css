@@ -1,0 +1,39 @@
+.todo {
+    display: flex;
+    margin: 0 -3rem 4px;
+    padding: 1rem 3rem;
+    height: 75px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+  }
+
+.todo-checkbox {
+    height: 25px;
+    width: 45px;
+    background-color: #eee;
+}
+
+.todo-text {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.fa-trash {
+    font-size: 1.8rem;
+    color: white;
+}

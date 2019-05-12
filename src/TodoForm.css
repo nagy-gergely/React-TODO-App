@@ -1,0 +1,47 @@
+.todo-form {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo-label {
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.task-input, .date-input {
+    height: 3rem;
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5em;
+    outline: none;
+}
+
+.task-input {
+    border-right: 1px solid #05a19c;
+}
+
+.date-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.submit-button {
+    height: 3rem;
+    padding: 0 1.3rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background 0.4s ease-out;
+    outline: none;
+  }
+
+  .submit-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }

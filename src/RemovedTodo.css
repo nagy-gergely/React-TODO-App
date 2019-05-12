@@ -1,0 +1,39 @@
+.removed-todo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    height: 75px;
+    left: 20px;
+    bottom: 20px;
+    background-color: #05a19c;
+    color: white;
+    box-shadow: -5px -5px 0px 0px rgba(100, 100, 100, 0.2);
+}
+
+.removed-todo p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.removed-todo button {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.fa-undo {
+    margin-left: 10px;
+}
+
+.removed-todo-close {
+    margin: 5px 5px auto auto;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
